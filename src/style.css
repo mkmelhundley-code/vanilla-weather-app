@@ -1,2 +1,19 @@
 body {
+  background: linear-gradient(
+    243deg,
+    rgb(27, 27, 79) 11.2%,
+    rgb(120, 201, 244) 100.2%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Urbanist", sans-serif;
+}
+
+.weather-app-container {
+  background-color: white;
+  max-width: 600px;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
 }
