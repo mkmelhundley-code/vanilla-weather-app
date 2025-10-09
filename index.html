@@ -6,13 +6,39 @@
     <title>Vanilla Weather App</title>
   </head>
   <body>
-    <h1>SheCodes Plus Vanilla Weather App</h1>
+    <header>
+      <div>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </div>
+    </header>
+    <hr />
 
+    <main>
+      <h1>Portland</h1>
+      <p>
+        Thursday 8:42 a.m., cloudy
+        <br />
+        Humidity: <strong>85%</strong>, Wind: <strong>1mph</strong>
+      </p>
+
+      <div><span>☁️</span>50°F</div>
+      <div><strong>65°</strong>/48°</div>
+    </main>
+    <hr />
     <footer>
-      Coded by
+      This project is coded by
       <a href="https://github.com/mkmelhundley-code" target="_blank"
         >Melissa Hundley</a
-      >, on
+      >, is open-sourced on
       <a
         href="https://github.com/mkmelhundley-code/vanilla-weather-app"
         target="_blank"
