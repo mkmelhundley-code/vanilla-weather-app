@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Vanilla Weather App</title>
   </head>
   <body>
@@ -23,6 +24,7 @@
               required
               class="search-input"
               id="search-input"
+              autofocus
             />
             <input
               type="submit"
@@ -38,7 +40,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city">Portland</h1>
+            <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
               Thursday 8:42 a.m., cloudy
               <br />
@@ -47,7 +49,7 @@
           </div>
           <div class="weather-app-temperature-container">
             <span class="weather-conditions-icon">☁️</span>
-            <span class="weather-app-temperature">50</span>
+            <span class="weather-app-temperature" id="temperature"></span>
             <span class="weather-app-temperature-unit">°F</span>
           </div>
         </div>
