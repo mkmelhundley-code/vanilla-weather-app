@@ -8,6 +8,19 @@ body {
   min-height: 100vh;
   font-family: "Urbanist", sans-serif;
 }
+header {
+  padding-bottom: 10px;
+}
+
+hr {
+  border: 1px solid rgba(27, 27, 79, 0.08);
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+}
 
 .weather-app-container {
   background-color: white;
@@ -16,4 +29,26 @@ body {
   margin: 30px auto;
   border-radius: 10px;
   box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
+}
+
+.search-input {
+  width: 80%;
+  color: #1b1b4f;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(27, 27, 79, 0.08);
+  padding: 15px;
+}
+
+.search-button {
+  background-color: #1b1b4f;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 5px;
+  padding: 15px 30px;
 }
