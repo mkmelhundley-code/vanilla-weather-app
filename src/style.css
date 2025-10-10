@@ -35,6 +35,14 @@ footer {
   padding-top: 10px;
 }
 
+a {
+  color: #324577;
+}
+
+p strong {
+  color: #324577;
+}
+
 p.weather-details {
   display: block;
   font-size: 16px;
