@@ -1,9 +1,4 @@
 body {
-  background: linear-gradient(
-    243deg,
-    rgb(27, 27, 79) 11.2%,
-    rgb(120, 201, 244) 100.2%
-  );
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: "Urbanist", sans-serif;

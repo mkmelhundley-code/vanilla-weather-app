@@ -53,7 +53,29 @@ function searchSubmit(event) {
   searchCity(searchInput.value);
 }
 
+function setDynamicBackground() {
+  const hour = new Date().getHours();
+  let gradient;
+
+  if (hour >= 6 && hour < 12) {
+    // Morning
+    gradient = "linear-gradient(355deg, #F79C5B, #7DC3EE)";
+  } else if (hour >= 12 && hour < 18) {
+    // Afternoon
+    gradient = "linear-gradient(340deg, #00C6FF, #1B1B4F)";
+  } else if (hour >= 18 && hour < 23) {
+    // Evening
+    gradient = "linear-gradient(347deg, #621B6F, #071744)";
+  } else {
+    // Night
+    gradient = "linear-gradient(149deg, #19191B, #030320)";
+  }
+
+  document.body.style.background = gradient;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", searchSubmit);
 
 searchCity("Gresham");
+setDynamicBackground();
