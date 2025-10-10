@@ -2,6 +2,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: "Urbanist", sans-serif;
+  transition: 1s ease-in-out;
 }
 
 main {
