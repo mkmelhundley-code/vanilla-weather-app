@@ -101,3 +101,32 @@ p.weather-details {
   font-size: 30px;
   margin-top: 15px;
 }
+
+.weather-forecast-date {
+  text-align: center;
+  color: #1f2029;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #324577;
+  margin-top: 10px;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
